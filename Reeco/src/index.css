@@ -1,0 +1,42 @@
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+a {
+  text-decoration: none;
+  color: #1f633e;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #1f633e;
+}
+button {
+  background-color: #1f633e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #1f633e;
+  color: white;
+}
+h1 {
+  font-size: 24px;
+}
+h2 {
+  font-size: 20px;
+}
+h3 {
+  font-size: 18px;
+}
